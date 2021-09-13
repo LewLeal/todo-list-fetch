@@ -1,0 +1,126 @@
+.container {
+  background: #d1f2eb;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background-color: #E2DBF7;
+  width: 25%;
+  min-width: 450px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.list {
+  width: 90%;
+  margin: auto;
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #aaa;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
+
+.task-input {
+  width: 350px;
+  min-width: 250px;
+  padding: 15px 10px 10px 20px;
+  margin-right: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  color: #000000;
+  background-color: #e9effb;
+  outline: none;
+  border-radius: 13px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.btn-add-task {
+  background-color: #d1f2eb;
+  color: #000000;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 150px;
+  height: 20px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding-bottom: 5px;
+}
+
+.list-item span {
+  color: #000000;
+}
+.task-title {
+  text-align: center;
+  padding: 5%;
+}
+
+.task-btn {
+  color: #000000;
+  background-color: transparent;
+  border: none;
+  margin-left: 13px;
+}
+
+.btn-delete i {
+  font-size: 16px;
+  color: #f23015;
+}
+
+.btn-edit i {
+  font-size: 16px;
+  color: #bbb;
+  margin-right: 20px;
+}
+
+
+
+.no-tasks {
+  color: #4f4f4f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
